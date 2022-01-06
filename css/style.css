@@ -116,20 +116,19 @@ body{
 }
 .my-traveling {
     padding: 3%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: stretch;
-    grid-gap: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
 .traveling {
-    width: 467px;
-    height: 450px;
+    width: 30%;
+    margin-bottom: 75px;
 }
 .traveling h2{
     font-size: 28px;
     text-align: center;
+    margin-bottom: 0px;
 }
 .traveling img{
     width: 100%;
@@ -138,7 +137,7 @@ body{
 }
 
 .footer-section{
-    margin-top: 100px;
+    margin-top: -50px;
     background: #0B0D17;
     height: 177px;
     text-align: center;
