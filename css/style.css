@@ -121,10 +121,10 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: stretch;
-    grid-gap: 70px;
+    grid-gap: 80px;
 }
 .traveling {
-    width: 450px;
+    width: 467px;
     height: 450px;
 }
 .traveling h2{
